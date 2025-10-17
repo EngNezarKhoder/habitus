@@ -1,43 +1,49 @@
-# 🧩 Flutter Notes & Habits App
+# 📝 Flutter Notes App
 
-A modern and beautifully designed Flutter application that allows users to manage their personal notes and habits.  
-Built using **Flutter**, **GetX**, and **Firebase** for authentication, cloud storage, and state management.
+A Flutter application that allows users to create, edit, and manage their personal notes.  
+The app includes authentication, language switching (English & Arabic), dark/light themes, and a clean modern design.
 
 ---
 
 ## 🚀 Features
-- 👋 **Welcome Screen** – smooth introduction with navigation to login or sign-up  
-- 🔐 **User Authentication** – register and log in using Firebase Authentication  
-- 📝 **Notes Page** – view, add, edit, and delete notes stored in Firebase Firestore  
-- ➕ **Add Note Page** – create and save new notes easily  
-- ⚙️ **Settings Page** – view your name and account info, switch languages (English / Arabic), toggle dark or light mode, and log out  
-- 🌍 **Multi-language Support** – English 🇬🇧 & Arabic 🇸🇦  
-- 🌗 **Dark & Light Themes** – customizable and user-friendly interface  
-- ☁️ **Cloud Storage** – all notes are securely stored and synced using Firebase  
+
+- 🔐 User authentication with **Firebase** (Sign Up / Login / Logout)  
+- 🗒️ Add, edit, and delete notes  
+- 🌙 Switch between **Dark** and **Light** themes  
+- 🌍 Multi-language support (**English / Arabic**)  
+- ⚙️ Settings page displaying user info and app preferences  
+- ⚡ State management with **GetX**
 
 ---
 
-## 🛠️ Technologies
+## 🧰 Technologies Used
+
 - **Flutter**  
 - **Dart**  
-- **Firebase Authentication**  
-- **Cloud Firestore**  
-- **GetX** (for state management, navigation, and localization)
+- **Firebase Authentication & Firestore**  
+- **GetX** for state management  
 
 ---
 
-## 💡 Future Improvements
-- Add reminders and notifications  
-- Add habit tracking statistics and progress visualization  
-- Improve UI animations and transitions  
-- Add user profile customization
+## 📱 Screenshots
+
+<p align="center">
+  <img src="lib/assets/screenshots/welcome_page.jpg" width="250">
+  <img src="lib/assets/screenshots/login_page.jpg" width="250">
+  <img src="lib/assets/screenshots/sign_up_page.jpg" width="250">
+</p>
+
+<p align="center">
+  <img src="lib/assets/screenshots/main_page.jpg" width="250">
+  <img src="lib/assets/screenshots/home_page.jpg" width="250">
+  <img src="lib/assets/screenshots/settings_page.jpg" width="250">
+  <img src="lib/assets/screenshots/add_note_page.jpg" width="250">
+</p>
 
 ---
 
-## 📱 Preview
+## 🧑‍💻 Getting Started
 
----
-
-## 🧑‍💻 Author
-Developed by [Your Name]  
-⭐ Feel free to star the repo if you like it!
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
