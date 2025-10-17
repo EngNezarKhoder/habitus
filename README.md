@@ -35,7 +35,7 @@ Built using **Flutter**, **GetX**, and **Firebase** for authentication, cloud st
 ---
 
 ## 📱 Preview
-[welcome page](lib/assets/screenshots/welcome_page.jpg)
+
 ---
 
 ## 🧑‍💻 Author
